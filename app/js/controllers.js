@@ -10,3 +10,4 @@ var recipesControllers = angular.module('recipesControllers',[]);
             $scope.recipes = data;
         });
       }]);
+
