@@ -1,0 +1,16 @@
+{
+    "image": "img/ice-cream-sandwich-cake.jpg",
+    "author": "Danny",
+    "ingredients": [
+        "24 vanilla ice cream sandwich, unwrapped",
+        "2 containers whipped topping",
+        "1 jar hot fudge ice cream topping, warmed",
+        "1 jar caramel ice cream topping",
+        "1/4 cup chopped pecans, ot to taste"
+    ],
+    "prep": "30 mins",
+    "ready": "1 hr",
+    "directions":[
+        "1. Arrange a layer of ice cream sandwiches in the bottom of a 9x13-inch dish; top with a layer of whipped topping, hot fudge topping, and caramel topping. Repeat layering with remaining ice cream sandwiches, whipped topping, hot fudge topping, and caramel topping, ending with a top layer of whipped topping. Sprinkle with pecans. Cover dish with aluminum foil and freeze until set, at least 30 minutes."
+    ]
+}

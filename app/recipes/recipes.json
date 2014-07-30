@@ -1,0 +1,37 @@
+[
+    {
+        "category": "breakfast",
+        "age": 0,
+        "id": "egg-salad",
+        "imageUrl": "img/egg-salad.jpg",
+        "name": "Egg Salad"
+    },
+    {
+        "category": "dinner",
+        "age": 1,
+        "id": "cowboy-tacos",
+        "imageUrl": "img/cowboy-tacos.jpg",
+        "name": "Cowboy Tacos"
+    },
+    {
+        "category": "lunch",
+        "age": 2,
+        "id": "emergency-chicken",
+        "imageUrl": "img/emergency-chicken.jpg",
+        "name": "Emergency Chicken"
+    },
+    {
+        "category": "dessert",
+        "age": 3,
+        "id": "ice-cream-sandwich-cake",
+        "imageUrl": "img/ice-cream-sandwich-cake.jpg",
+        "name": "Ice Cream Sandwich Cake"
+    },
+    {
+        "category": "lunch",
+        "age": 4,
+        "id": "pork-tanderloin",
+        "imageUrl": "img/pork-tanderloin.jpg",
+        "name": "Pork Tanderloin"
+    }
+]
