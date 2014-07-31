@@ -4,7 +4,8 @@
 // Declare app level module which depends on filters, and services
 var recipesApp = angular.module('recipesApp', [
   'ngRoute',
-  'recipesControllers'
+  'recipesControllers',
+  'recipesServices'
 ]);
 
 recipesApp.config(['$routeProvider',
@@ -15,5 +16,6 @@ recipesApp.config(['$routeProvider',
                 controller: 'RecipeListCtrl'
             });
     }]);
+
 
 

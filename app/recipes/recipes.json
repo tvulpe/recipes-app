@@ -4,34 +4,39 @@
         "age": 0,
         "id": "egg-salad",
         "imageUrl": "img/egg-salad.jpg",
-        "name": "Egg Salad"
+        "name": "Egg Salad",
+        "author": "John Doe"
     },
     {
         "category": "dinner",
         "age": 1,
         "id": "cowboy-tacos",
         "imageUrl": "img/cowboy-tacos.jpg",
-        "name": "Cowboy Tacos"
+        "name": "Cowboy Tacos",
+        "author": "John Doe"
     },
     {
         "category": "lunch",
         "age": 2,
         "id": "emergency-chicken",
         "imageUrl": "img/emergency-chicken.jpg",
-        "name": "Emergency Chicken"
+        "name": "Emergency Chicken",
+        "author": "Aaron Brad"
     },
     {
         "category": "dessert",
         "age": 3,
         "id": "ice-cream-sandwich-cake",
         "imageUrl": "img/ice-cream-sandwich-cake.jpg",
-        "name": "Ice Cream Sandwich Cake"
+        "name": "Ice Cream Sandwich Cake",
+        "author": "Danny Moor"
     },
     {
         "category": "lunch",
         "age": 4,
         "id": "pork-tanderloin",
         "imageUrl": "img/pork-tanderloin.jpg",
-        "name": "Pork Tanderloin"
+        "name": "Pork Tanderloin",
+        "author": "John Doe"
     }
 ]

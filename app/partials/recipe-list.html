@@ -1,25 +1,29 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-4">
             <!--Sidebar content-->
-
-            Search: <input ng-model="query"> <br /><br />
-            Daily Meal:
-            <div ng-repeat="recipe in recipes | limitTo:4">
-                <input type="checkbox" value="{{recipe.category}}" ng-model="meal"> {{recipe.category}}
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <input ng-model="query" placeholder="Search..."> <br /><br />
+                Daily Meal: <br />
+                    <input type="checkbox" ng-click="includeCategory('breakfast')"/> Breakfast <br />
+                    <input type="checkbox" ng-click="includeCategory('lunch')"/> Lunch <br />
+                    <input type="checkbox" ng-click="includeCategory('dinner')"/> Dinner <br />
+                    <input type="checkbox" ng-click="includeCategory('dessert')"/> Dessert <br />
             </div>
-
         </div>
-        <div class="col-md-10">
+        <div class="col-md-8">
             <!--Body content-->
 
             <ul class="recipes">
-                <li ng-repeat="recipe in recipes | filter:query | filter:meal" class="thumbnail">
+                <li ng-repeat="recipe in recipes | filter:query | filter:categoryFilter" class="col-xs-6 thumbnail">
                     <a href="#/recipes/{{recipe.id}}">{{recipe.name}}</a>
                     <a href="#/recipes/{{recipe.id}}" class="thumb"><img ng-src="{{recipe.imageUrl}}"></a>
+                    <p>Author: {{recipe.author}}</p>
+                    <p>{{recipe.category}}</p>
+                    <input type="hidden" value="{{recipe.category}}"/>
                 </li>
             </ul>
-
         </div>
     </div>
 </div>
