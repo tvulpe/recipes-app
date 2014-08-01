@@ -11,9 +11,11 @@
         "12 taco shells",
         "1 can sliced ripe olives, for topping"
     ],
-    "prep": "5 mins",
-    "cook": "25 mins",
-    "ready": "30 mins",
+    "time": {
+        "prep": "5 mins",
+        "cook": "25 mins",
+        "ready": "30 mins"
+    },
     "directions":[
         "1. In a large resealable bag, toss pork meat with the taco seasoning mix until coated. Heat oil in a skillet over medium-high heat. Fry the seasoned pork in the hot oil, stirring occasionally until pork is no longer pink.",
         "2. Stir the beans, salsa and apricot preserves into the skillet with the pork. Reduce heat to low, and simmer until heated through, about 10 minutes.",

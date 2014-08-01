@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="row">
+            <!--Sidebar content-->
+        <div class="col-md-9 col-md-push-3 thumbnail" data-drop="true" ng-model='list1' data-jqyoui-options="optionsList1"
+             jqyoui-droppable="{multiple:true}">
+            <div class="caption">
+            </div>
+        </div>
+        <div class="col-md-3 col-md-pull-9 thumbnail text-center" >
+            <label class="lead" style="color: rgba(17, 103, 129, 0.87);"><b>Available ingredients</b></label>
+            <div ng-repeat="ingredient in ingredients" data-drop="true">
+                <p class="btn btn-default" style="border: groove; margin: 5px; color: #000000;">{{ingredient.name}}</p>
+            </div>
+        </div>
+    </div>
+</div>

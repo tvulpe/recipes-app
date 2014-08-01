@@ -5,7 +5,12 @@
         "id": "egg-salad",
         "imageUrl": "img/egg-salad.jpg",
         "name": "Egg Salad",
-        "author": "John Doe"
+        "author": "John Doe",
+        "duration": {
+            "prep": "5 min",
+            "cook": "25 min",
+            "ready": "30 min"
+        }
     },
     {
         "category": "dinner",
@@ -13,7 +18,12 @@
         "id": "cowboy-tacos",
         "imageUrl": "img/cowboy-tacos.jpg",
         "name": "Cowboy Tacos",
-        "author": "John Doe"
+        "author": "John Doe",
+        "duration": {
+            "prep": "10 min",
+            "cook": "25 min",
+            "ready": "35 min"
+        }
     },
     {
         "category": "lunch",
@@ -21,7 +31,12 @@
         "id": "emergency-chicken",
         "imageUrl": "img/emergency-chicken.jpg",
         "name": "Emergency Chicken",
-        "author": "Aaron Brad"
+        "author": "Aaron Brad",
+        "duration": {
+            "prep": "30 min",
+            "cook": "4 hrs",
+            "ready": "4 hrs, 30 min"
+        }
     },
     {
         "category": "dessert",
@@ -29,7 +44,11 @@
         "id": "ice-cream-sandwich-cake",
         "imageUrl": "img/ice-cream-sandwich-cake.jpg",
         "name": "Ice Cream Sandwich Cake",
-        "author": "Danny Moor"
+        "author": "Danny Moor",
+        "duration": {
+            "prep": "15 min",
+            "ready": "15 min"
+        }
     },
     {
         "category": "lunch",
@@ -37,6 +56,11 @@
         "id": "pork-tanderloin",
         "imageUrl": "img/pork-tanderloin.jpg",
         "name": "Pork Tanderloin",
-        "author": "John Doe"
+        "author": "John Doe",
+        "duration": {
+            "prep": "25 min",
+            "cook": "35 min",
+            "ready": "1 hrs"
+        }
     }
 ]

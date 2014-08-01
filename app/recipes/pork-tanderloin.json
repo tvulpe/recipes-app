@@ -10,9 +10,11 @@
         "3 tablespoons sy sauce",
         "freshly ground black pepper to taste"
     ],
-    "prep": "15 mins",
-    "cook": "4 hrs",
-    "ready": "4 hrs, 15 mins",
+    "time": {
+        "prep": "15 mins",
+        "cook": "4 hrs",
+        "ready": "4 hrs, 15 mins"
+    },
     "directions":[
         "1. Place pork tenderloin in a slow cooker with the contents of the soup packet. Pour water, wine, and soy sauce over the top, turning the pork to coat. Carefully spread garlic over the pork, leaving as much on top of the roast during cooking as possible. Sprinkle with pepper, cover, and cook on low setting for 4 hours. Serve with cooking liquid on the side as au jus."
     ]
