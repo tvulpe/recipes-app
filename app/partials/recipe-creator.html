@@ -1,15 +1,20 @@
 <div class="container-fluid">
     <div class="row">
             <!--Sidebar content-->
-        <div class="col-md-9 col-md-push-3 thumbnail" data-drop="true" ng-model='list1' data-jqyoui-options="optionsList1"
-             jqyoui-droppable="{multiple:true}">
-            <div class="caption">
+        <div class="col-md-9 col-md-push-3 thumbnail text-center">
+            <h4 style="color: red"><b>Combine ingredients</b></h4>
+            <div id="targetList" dnd-between-list="ingredients,sourceList" ng-class="{'minimalList':sourceEmpty()}">
+                <ul ng-repeat="ingredient in source">
+                    <p class="btn btn-default" style="margin: 5px; color: #000000;">{{ingredient.name}}</p>
+                </ul>
             </div>
         </div>
-        <div class="col-md-3 col-md-pull-9 thumbnail text-center" >
-            <label class="lead" style="color: rgba(17, 103, 129, 0.87);"><b>Available ingredients</b></label>
-            <div ng-repeat="ingredient in ingredients" data-drop="true">
-                <p class="btn btn-default" style="border: groove; margin: 5px; color: #000000;">{{ingredient.name}}</p>
+        <div class="col-md-3 col-md-pull-9 thumbnail text-center" id="main">
+            <h5 style="color: rgba(17, 103, 129, 0.87);"><b>Ingredients</b></h5>
+            <div class="" id="sourceList" dnd-between-list="source,targetList" ng-class="{'minimalList':sourceEmpty()}">
+                <ul ng-repeat="ingredient in ingredients">
+                    <p class="btn btn-success" style="width: 6em ;margin: 5px; color: #ffffff;"><span class="fui-plus text-center"> {{ingredient.name}}</span></p>
+                </ul>
             </div>
         </div>
     </div>

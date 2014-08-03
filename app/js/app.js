@@ -6,7 +6,8 @@ var recipesApp = angular.module('recipesApp', [
   'ngRoute',
   'ngDragDrop',
   'recipesControllers',
-  'recipesServices'
+  'recipesServices',
+  'recipesDirectives'
 ]);
 
 recipesApp.config(['$routeProvider',

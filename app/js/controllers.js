@@ -28,25 +28,14 @@ recipesControllers.controller('RecipeListCtrl', ['$scope', 'Recipe',
         }
       }]);
 
-recipesControllers.controller('RecipeCreatorCtrl', ['$scope', 'Ingredients',
-    function($scope, Ingredients) {
+recipesControllers.controller('RecipeCreatorCtrl', ['$scope', 'Ingredients', 'IngredientsCpy',
+    function($scope, Ingredients, IngredientsCpy) {
         $scope.ingredients = Ingredients.query2();
-    }]);
-
-recipesControllers.controller('RecipeCreatorCtrl', ['$scope', '$timeout', 'Ingredients',
-    function($scope, $timeout, Ingredients) {
-        $scope.ingredients = Ingredients.query2();
-
-        $scope.list1 = [];
-
-        // Limit items to be dropped in list1
-        $scope.optionsList1 = {
-            accept: function(dragEl) {
-                if ($scope.list1.length >= 2) {
-                    return false;
-                } else {
-                    return true;
-                }
-            }
-        };
+        $scope.source = IngredientsCpy.query3();
+        $scope.sourceEmpty = function() {
+            return $scope.source.length == 0;
+        }
+        $scope.modelEmpty = function() {
+            return $scope.name.length == 0;
+        }
     }]);

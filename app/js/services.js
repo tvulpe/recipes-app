@@ -17,3 +17,10 @@ recipesServices.factory('Ingredients', ['$resource',
            query2: {method: 'GET', params: {ingredient: 'ingredients'}, isArray:true}
         });
     }]);
+
+recipesServices.factory('IngredientsCpy', ['$resource',
+    function($resource) {
+        return $resource('/recipes/:ingredientCpy.json', [], {
+            query3: {method: 'GET', params: {ingredientCpy: 'ingredientsCpy'}, isArray:true}
+        });
+    }]);

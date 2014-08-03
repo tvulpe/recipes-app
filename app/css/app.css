@@ -29,6 +29,10 @@ body {
     float: left;
 }
 
+.minimalList {
+    min-height: 100px;
+}
+
 .thumbnail img{
     width: 100%;
 }
